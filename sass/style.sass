@@ -1,9 +1,10 @@
 $blue: #2077b2
 $primary: $blue
 $grey-dark: #42464c
-$family-sans-serif: "PingFangSC-Regula", "微软雅黑", "Microsoft YaHei", sans-serif
+$family-sans-serif: "Source Serif Pro", "Apple Garamond", "Baskerville", "Libre Baskerville", "Times New Roman", "Droid Serif", "Times", serif
 
 @import "node_modules/bulma/bulma"
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap')
 
 .container
   max-width: 800px
@@ -24,6 +25,7 @@ $family-sans-serif: "PingFangSC-Regula", "微软雅黑", "Microsoft YaHei", sans
 
 html
   background-color: transparent
+  font-variant-numeric: oldstyle-nums
 
 .section
   padding: 40px 20px
@@ -50,8 +52,6 @@ code
   color: inherit
   background-color: transparent
   font-size: 90%
-
-
 
 article+article
   margin-top: 80px
